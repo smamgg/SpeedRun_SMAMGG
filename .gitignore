@@ -11,6 +11,78 @@
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 *.log
+/My project/Temp/
+# ========== Unity 생성 폴더 ==========
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+[Uu]ser[Ss]ettings/
+[Ww]ebGlTemplates/
+
+# ========== 빌드 출력 및 패키징 ==========
+*.apk
+*.aab
+*.unitypackage
+*.app
+*.exe
+
+# ========== 시스템 / IDE 파일 ==========
+.DS_Store
+.vs/
+.idea/
+.gradle/
+*.suo
+*.user
+*.userprefs
+*.tmp
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.iml
+*.bak
+
+# ========== Git 충돌 및 백업 관련 ==========
+*.orig
+*.rej
+*.stacktrace
+
+# ========== Unity 프로젝트 파일 ==========
+*.csproj
+*.unityproj
+*.sln
+
+# ========== JetBrains Rider 자동 생성 ==========
+[Aa]ssets/Plugins/Editor/JetBrains*
+
+# ========== Crashlytics & 기타 자동 파일 ==========
+crashlytics-build.properties
+sysinfo.txt
+
+# ========== Addressables 관련 ==========
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+/[Aa]ssets/StreamingAssets/aa.meta
+/[Aa]ssets/StreamingAssets/aa/*
+
+# ========== 녹화 / 캡처 ==========
+/[Rr]ecordings/
+
+# ========== Asset Store 도구 무시 (선택) ==========
+# /Assets/AssetStoreTools*
+
+# ========== Unity YAML 병합 캐시 무시 ==========
+*.merge
+
+# ========== 유니티6 관련 추가 고려 가능 ==========
+*.utmp
+*.usdt
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
